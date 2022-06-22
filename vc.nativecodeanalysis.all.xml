@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\hp\source\repos\Blood_Bank\Blood_Bank\</FILEPATH>
+      <FILENAME>admin.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'bloo::quantity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>bloo::{ctor}</FUNCTION>
+    <DECORATED>??0bloo@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>bloo::quantity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\hp\source\repos\Blood_Bank\Blood_Bank\</FILEPATH>
+      <FILENAME>donor.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Dnr::age' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Dnr::{ctor}</FUNCTION>
+    <DECORATED>??0Dnr@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Dnr::age</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\hp\source\repos\Blood_Bank\Blood_Bank\</FILEPATH>
+      <FILENAME>Recipient.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6296</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop.  Loop body only executed once.</DESCRIPTION>
+    <FUNCTION>Recipient::operation</FUNCTION>
+    <DECORATED>?operation@Recipient@@QAEXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
